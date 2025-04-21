@@ -8,10 +8,10 @@ class Database:
     def connect():
         try:
             connection = MySQLdb.connect(
-                host='fatima6p.beget.tech',
-                user='fatima6p_yellow',
-                password='5ja5NW&a8dBn',
-                database="fatima6p_yellow",
+                host='localhost',
+                user='root',
+                password='',
+                database="fabric",
                 port=3306
             )
         except OperationalError as e:
